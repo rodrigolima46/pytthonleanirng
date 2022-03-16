@@ -7,8 +7,8 @@ class __Person:
         self.birthday = birthday
     
     def age(self):
-        self.day = int(self.birthday[:2])
-        self.month = int(self.birthday[2:4])
+        self.month = int(self.birthday[:2])
+        self.day = int(self.birthday[2:4])
         self.year = int(self.birthday[4:8])        
         
         self.today = date.today()
