@@ -18,7 +18,7 @@ class __Person:
 
     def showInfo(self):
         self.age()
-        print( f'\n\n Your name is {self.name} \n you are {self.height} ft\n you born on {self.birthday[0:2]}/{self.birthday[2:4]}/{self.birthday[4:8]} \n and completed {self.age} years\n\n') 
+        print( f'\n\n Your name is {self.name} \n you are {self.height} ft\n you born on {self.month}/{self.day}/{self.year} \n and completed {self.age} years\n\n') 
 
 person = __Person(
     input('Type your name: '),
